@@ -1,0 +1,3 @@
+---
+ansible_role_name: osquery
+travis_decrypt_key: 08c1afc3f0a8
