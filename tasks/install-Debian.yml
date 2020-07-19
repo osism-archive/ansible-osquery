@@ -18,6 +18,7 @@
   apt_repository:
     repo: "{{ osquery_debian_repository }}"
     state: present
+    filename: osquery
     update_cache: yes
   become: true
   when: osquery_configure_repository|bool
