@@ -1,6 +1,0 @@
----
-ansible_role_name: osquery
-distributions:
-  - bionic
-  - focal
-travis_decrypt_key: 08c1afc3f0a8

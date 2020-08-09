@@ -1,9 +1,0 @@
----
-- name: Playbook for role testing
-  hosts: all
-
-  vars:
-    osquery_configure_repository: yes
-
-  roles:
-    - role: ansible-osquery
